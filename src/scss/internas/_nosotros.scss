@@ -1,0 +1,20 @@
+.contenido-nosotros {
+    @include desktop {
+        @include grid(2, 2rem);
+    }
+
+    img {
+        border-radius: 1rem;
+    }
+}
+
+.texto-nosotros {
+    @include telefono {
+        margin-top: 2rem;
+    }
+}
+
+.texto-nosotros blockquote {
+    font-weight: $black;
+    font-size: 2.6rem;
+}

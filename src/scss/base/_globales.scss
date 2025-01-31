@@ -1,0 +1,79 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    font-family: $fuente_principal;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+p {
+    color: $negro;
+    font-size: 2rem;
+}
+
+/* Estilos clase layout*/
+.layout {
+    display: contents;
+}
+
+.contenedor {
+    width: 95%;
+    max-width: 100vw;
+    margin: 0 auto;
+
+    h1 {
+        &::after {
+            content: '';
+            display: block;
+            width: 15rem;
+            height: .5rem;
+            background-color: $salmon;
+            margin: 1rem auto; // Centrar la barra decorativa
+            margin-bottom: 7rem;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+img,
+picture {
+    width: 100%;
+    display: block;
+}
+
+h1, h2, h3 {
+    font-family: $fuente_principal;
+    margin: calc($separacion / 2) 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.8rem;
+    font-weight: $black;
+}
+h2 {
+    font-size: 3.4rem;
+}
+h3 {
+    font-size: 3rem;
+    font-weight: $bold;
+}
+h4 {
+    font-size: 2.6rem;
+}

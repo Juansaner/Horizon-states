@@ -1,0 +1,110 @@
+.contenedor-anuncios {
+    margin-bottom: 2rem;
+    @include tablet {
+        @include grid(3, 2rem);
+    }
+}
+
+.img-anuncio {
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+.anuncio {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid darken($gris, 10);
+    border-radius: 1.5rem;
+    margin-bottom: 2rem;
+
+    .anuncio-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+
+        @include telefono {
+            padding: 2rem;
+        }
+        
+        @include tablet {
+            padding: 1rem;
+        }
+
+        @include desktop {
+            padding: 2rem;
+        }
+    }
+
+    @include telefono {
+        margin-bottom: 3rem;
+    }
+
+    h3 {
+        text-align: left;
+        margin: 0 0 1rem 0;
+    }
+
+    .descripcion-anuncio{
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+}
+
+/* Estilos página propiedad */
+.propiedad {
+    .img-propiedad {
+        border-radius: 1rem;
+    }
+}
+
+.resumen-propiedad {
+    .propiedad-wrapper {
+        margin: 3rem 0 3rem 0;
+
+    }
+    @include tablet {
+        .propiedad-wrapper {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .precio {
+        color: $salmon;
+        font-weight: $bold;
+        font-size: 3rem;
+    }
+
+    .descripcion-titulo {
+        font-weight: $black;
+        font-size: 2.4rem;
+    }
+}
+
+.iconos-caracteristicas {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    max-width: 40rem;
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1.5rem;
+
+        .icono {
+            margin-top: 0;
+        }
+
+        img{
+            flex: 0 0 2rem;
+            width: 3rem;
+            margin-right: 1rem;
+        }
+
+        p {
+            font-weight: $regular;
+            margin: 0;
+        }
+    }
+}

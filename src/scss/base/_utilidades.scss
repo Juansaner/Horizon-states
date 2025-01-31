@@ -1,0 +1,38 @@
+.seccion {
+
+    @include telefono {
+        margin-top: 6rem;
+        margin-bottom: 3rem;
+    }
+
+    @include tablet {
+        margin-top: 9rem;
+        margin-bottom: 4rem;
+    }
+ 
+    &.nosotros,
+    &.anuncios,
+    &.blog,
+    &.contacto, 
+    &.login, 
+    &.propiedad, 
+    &.vendedor, 
+    &.panel-admin {
+        margin-top: 16rem
+    }
+}
+
+
+
+.contenido-centrado {
+    max-width: 80rem;
+}
+
+.alinear-derecha {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.w-100 {
+    width: 100%;
+}

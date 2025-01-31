@@ -1,0 +1,19 @@
+.boton-salmon-block {
+    @include boton($salmon, block);
+}
+
+.boton-salmon{
+    @include boton($salmon, inline-block);
+}
+
+.btn-salmon {
+    @include btn-border;
+}
+
+.boton-rojo-block {
+    @include boton($rojo, inline-block);
+}
+
+.boton-verde-block {
+    @include boton($verde, inline-block);
+}

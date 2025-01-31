@@ -1,0 +1,141 @@
+.alerta {
+    padding: 1rem;
+    text-align: center;
+    color: $blanco;
+    font-weight: $bold;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    
+    @include tablet {
+        width: 50%;
+        margin: 1rem auto;
+    }
+
+
+    &.error {
+        background-color: $rojo;
+    }
+
+    &.exito {
+        background-color: $verde;
+    }
+}
+
+
+.contenedor-table {
+    display: flex;
+    flex-direction: column;
+    border: 0.1rem solid $gris;
+    border-radius: 1rem;
+    margin-top: 4rem;
+    overflow: hidden;
+
+    .table-header {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        padding: 2rem;
+        position: sticky;
+        top: 0;
+        z-index: 2;
+
+        a {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+    }
+
+    .table-scroll {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    table.propiedades {
+        width: 100%;
+        border-spacing: 0;
+        
+
+        thead {
+            display: table;
+            width: 100%;
+            background-color: $grisOscuro;
+            table-layout: fixed;
+    
+            th {
+                color: $blanco;
+                padding: 2rem;
+                text-align: center;
+                vertical-align: middle;
+                text-overflow: ellipsis; 
+                white-space: nowrap;
+                position: sticky;
+                top: calc(4rem);
+                z-index: 1;
+            }
+        }
+    
+        tbody {
+            display: block;
+            max-height: 38rem;
+            width: 100%;
+            overflow-y: auto;
+            text-align: center;
+
+            tr {
+                display: table;
+                table-layout: fixed;
+                width: 100%;
+
+                td {
+                    text-overflow: ellipsis; 
+                    padding: 1rem;
+                    border-top: 0.1rem solid $gris;
+
+                    a {
+                        margin-bottom: 1rem;
+                    }
+                }
+            }
+        }
+    
+        .imagen-tabla {
+            width: 10rem;
+            margin: 0 auto;
+            border-radius: 1rem;
+        }
+    }
+}
+
+
+.imagen-small {
+    width: 15rem;
+}
+
+
+@include telefono {
+
+    table.propiedades {
+        table-layout: auto;
+        width: 100%;
+        min-width: 80rem;
+    }
+
+    thead {
+        th {
+            padding: 1rem;
+        }
+    }
+
+    tbody {
+        td {
+            padding: 1rem; 
+        }
+    }
+        
+
+    .imagen-tabla {
+        width: 8rem;
+        margin: 0 auto;
+    }
+}
