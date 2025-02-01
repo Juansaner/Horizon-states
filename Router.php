@@ -27,7 +27,7 @@ class Router {
         $rutas_protegidas = ['/admin', '/propiedades/crear', '/propiedades/actualizar', '/propiedades/eliminar', '/vendedores/crear', '/vendedores/actualizar', '/vendedores/eliminar'];
 
         //Obtiene URL que el usuario solicita
-        $urlActual = $_SERVER['PATH_INFO'] ?? "/";
+        $urlActual = strtok($_SERVER['REQUEST_URI'], '?') ?? '/';
 
         //Obtiene el método HTTP de la solicitud
         $metodo = $_SERVER['REQUEST_METHOD'];
