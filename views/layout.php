@@ -28,7 +28,7 @@
         <header class="header <?php echo $inicio ? 'inicio' : ''; ?>">
             <div class="contenedor contenido-header">
                 <div class="barra">
-                    <a href="/index.php">
+                    <a href="/">
                         <img class="logo" src="../build/img/logo.png" alt="Logotipo de bienes raíces">
                     </a>
     
