@@ -21,7 +21,7 @@
 <section class="imagen-contacto">
     <h2>Encuentra la casa de tus sueños</h2>
     <p>Llena el formulario de contacto y un asesor se pondrá en contacto contigo.</p>
-    <a href="contacto.html" class="boton-salmon">Contáctanos</a>
+    <a href="/contacto" class="boton-salmon">Contáctanos</a>
 </section>
 
 <div class="contenedor seccion seccion-inferior">
