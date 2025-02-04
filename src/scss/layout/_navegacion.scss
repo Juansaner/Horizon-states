@@ -153,15 +153,16 @@
         align-items: center;
         background: none;
         border: none;
-        width: 8rem;
-
-        .icono-menu {
-            filter: invert(100%);
-        }
+        min-width: 8rem;
 
     @include desktop {
         display: none;
     }
+}
+
+.icono-menu {
+    width: 100%; 
+    height: auto;
 }
 
 .mostrar {

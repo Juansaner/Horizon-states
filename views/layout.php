@@ -34,7 +34,7 @@
                     </a>
     
                     <button class="menu-mobile" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="navegacion"><!-- icono menú hamburguesa -->
-                        <img src="build/img/menu.png" alt="Icono menu" class="icono-menu">
+                        <img src="build/img/barras.svg" alt="Icono menu" class="icono-menu">
                     </button><!-- icono menú hamburguesa -->
     
                     <nav class="navegacion" aria-hidden="true">
