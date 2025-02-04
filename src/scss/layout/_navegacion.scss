@@ -153,16 +153,11 @@
         align-items: center;
         background: none;
         border: none;
-        min-width: 8rem;
+        width: 4rem;
 
     @include desktop {
         display: none;
     }
-}
-
-.icono-menu {
-    width: 100%; 
-    height: auto;
 }
 
 .mostrar {

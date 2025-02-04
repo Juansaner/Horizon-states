@@ -34,14 +34,14 @@
                     </a>
     
                     <button class="menu-mobile" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="navegacion"><!-- icono menú hamburguesa -->
-                        <img src="build/img/barras.svg" alt="Icono menu" class="icono-menu">
+                        <img src="/build/img/barras.svg" alt="Icono menu">
                     </button><!-- icono menú hamburguesa -->
     
                     <nav class="navegacion" aria-hidden="true">
                         <div class="container-closeBtn">
                             <p class="label-menu" aria-hidden="true">Menú</p>
                             <button class="close-menu" role="button" aria-label="Cerrar menú">
-                                <img src="build/img/cerrar.png" alt="icono cerrar menu">
+                                <img src="/build/img/cerrar-menu.svg" alt="icono cerrar menu">
                             </button>
                         </div>
                         <!--- .container-closeBtn --->
