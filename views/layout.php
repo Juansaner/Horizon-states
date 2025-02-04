@@ -34,17 +34,14 @@
                     </a>
     
                     <button class="menu-mobile" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="navegacion"><!-- icono menú hamburguesa -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="white" class="bi bi-list"
-                            viewBox="0 0 16 16" aria-hidden="true">
-                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-                        </svg>
+                        <img src="build/img/menu.png" alt="Icono menu" class="icono-menu">
                     </button><!-- icono menú hamburguesa -->
     
                     <nav class="navegacion" aria-hidden="true">
                         <div class="container-closeBtn">
                             <p class="label-menu" aria-hidden="true">Menú</p>
                             <button class="close-menu" role="button" aria-label="Cerrar menú">
-                                <img src="build/img/x-lg.svg" alt="icono cerrar menu" width="30" height="30">
+                                <img src="build/img/cerrar.png" alt="icono cerrar menu">
                             </button>
                         </div>
                         <!--- .container-closeBtn --->

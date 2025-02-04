@@ -153,6 +153,11 @@
         align-items: center;
         background: none;
         border: none;
+        width: 8rem;
+
+        .icono-menu {
+            filter: invert(100%);
+        }
 
     @include desktop {
         display: none;
