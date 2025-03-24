@@ -17,7 +17,7 @@ Este es un sitio web de bienes raíces donde los clientes pueden explorar propie
 
 📦 Uso de Composer para gestionar namespaces y dependencias.
 
-#🛠️ Tecnologías utilizadas
+# 🛠️ Tecnologías utilizadas
 - HTML5 y CSS3 (Sass).
 
 - PHP para la lógica del servidor.
@@ -32,7 +32,7 @@ Este es un sitio web de bienes raíces donde los clientes pueden explorar propie
 
 - Composer para gestión de dependencias y autoloading.
 
-#📥 Instalación y configuración
+# 📥 Instalación y configuración
 1. Clona el repositorio:
 	`git clone https://github.com/tuusuario/bienes-raices.git`
 	`cd bienes-raices`
